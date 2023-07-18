@@ -11,7 +11,7 @@ WORKDIR /app
 
 COPY --from=downloader /home/curl_user/mend .
 COPY --from=downloader /home/curl_user/wss-unified-agent.jar .
-COPY --from=downloader /home/curl_user/docker-ce-cli.deb
+COPY --from=downloader /home/curl_user/docker-ce-cli.deb .
 
 RUN dpkg -i /home/curl_user/docker-ce-cli.deb
 
