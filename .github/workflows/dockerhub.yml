@@ -60,4 +60,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: chuiwenchiu/mend-cli:latest
+          tags: chuiwenchiu/mend-cli:v1
