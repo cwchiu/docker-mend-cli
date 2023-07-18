@@ -1,0 +1,36 @@
+{
+	"Proxy": {
+		"Url": "",
+		"UserName": "",
+		"Password": ""
+	},
+	"Config": {
+		"UpdatesDisabled": false
+	},
+	"Auth": {
+		"General": {
+			"ApiUrl": "",
+			"OrgUuid": "",
+			"Url": "",
+			"UserEmail": "",
+			"UserKey": "",
+			"UserName": "",
+			"JWT": "",
+			"RefreshToken": "",
+			"DomainName": "",
+			"CoreAuthType": ""
+		},
+		"SCA": {
+			"Product": ""
+		},
+		"SAST": {
+			"Email": "",
+			"Token": "",
+			"EnvironmentURL": "",
+			"OrganizationID": ""
+		},
+		"CN": {
+			"CNUrl": ""
+		}
+	}
+}
